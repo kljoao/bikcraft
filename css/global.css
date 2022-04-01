@@ -4,6 +4,9 @@ body {
 }
 
 h1,
+h2,
+h3,
+h4,
 p {
   margin: 0px;
 }
@@ -19,6 +22,11 @@ img {
   display: block;
 }
 
+img[src$=".jpg"] {
+  border-radius: 8px;
+}
+
 a {
   text-decoration: none;
+  color: #ffffff;
 }
